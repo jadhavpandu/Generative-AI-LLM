@@ -1,0 +1,92 @@
+
+
+## 💡 **Welcome to Generative AI (GenAI)**
+
+**Generative AI** refers to a type of artificial intelligence that can **create** or **generate new content**. This content can be:
+
+* Text (like ChatGPT)
+* Images (like DALL·E)
+* Music, code, videos, etc.
+
+---
+
+## 🧠 What Does Generative AI Do?
+
+Generative AI **predicts the output** based on input data.
+Even if the **input questions are similar**, the **answers can vary** depending on:
+
+* Context
+* Randomness
+* Training data
+* Prompt wording
+
+---
+
+## ✨ Example: ChatGPT
+
+ChatGPT is a popular **Generative AI model** developed by OpenAI.
+
+### How it works:
+
+1. **Pre-training**:
+   It is trained on massive amounts of text data from books, websites, and code to understand how human language works.
+
+2. **Fine-tuning**:
+   It's fine-tuned to behave helpfully, safely, and informatively for specific tasks (like answering questions, writing code, etc.).
+
+3. **Output Generation**:
+   Based on your input (called a *prompt*), ChatGPT will generate a relevant response by predicting the next most likely word/token.
+
+---
+
+## 🧩 Tokenization
+
+Before processing text, AI models convert it into **tokens**.
+A **token** is a unit of text — like a word, part of a word, or even a character depending on the tokenizer.
+
+### Key Points:
+
+* ChatGPT uses a tokenizer to split input into tokens.
+* Different platforms (like ChatGPT, DeepSeek, Claude) may use **different tokenization techniques**.
+* You can test how text is tokenized using tools like [Tiktokenizer](https://platform.openai.com/tokenizer).
+
+### Example:
+
+```
+Text: "ChatGPT is cool"
+Tokens: ["Chat", "G", "PT", " is", " cool"]
+```
+
+---
+
+## ⚙️ GPT — Generative Pre-trained Transformer
+
+**GPT** is the architecture behind ChatGPT.
+
+* **Generative**: It generates output (like text).
+* **Pre-trained**: It is trained on large datasets before being used.
+* **Transformer**: The underlying model architecture which enables understanding context better than older models.
+
+---
+
+## 🔁 Why Different Answers for Similar Questions?
+
+GPT models can give different answers because:
+
+* They include **randomness** (called temperature/sampling).
+* The **phrasing** of the question matters.
+* They consider **context** (previous conversation).
+* They are trained to give **natural**, **varied** responses — not always the same robotic reply.
+
+---
+
+## 📝 Summary
+
+| Concept           | Explanation                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| Generative AI     | Creates new content from input (text, images, etc.)                    |
+| ChatGPT           | A chatbot using Generative AI (based on GPT architecture)              |
+| GPT               | Generative Pre-trained Transformer – the model architecture            |
+| Tokenization      | Breaking input into smaller parts (tokens) for the model to understand |
+| Different outputs | Due to randomness, phrasing, and context sensitivity                   |
+
